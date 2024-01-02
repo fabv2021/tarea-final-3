@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .budget-section, .expenses-section, .summary-section {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .expense-item button {
+    background-color: #ff6666;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  /* Agrega este estilo al final de tu archivo styles.css */
+.expenses-list-section {
+    margin-bottom: 20px;
+  }
+  
+  #expensesList {
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+  
+  .expense-item {
+    margin-bottom: 5px;
+  }
+  
+  .expense-item button {
+    background-color: #ff6666;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
